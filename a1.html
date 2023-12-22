@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <h1>TechFusion 2024</h1>
+      <label>Personal Details:<label>
+      <label for="firstname">First Name:</label>
+      <input type="text" id="firstname" name="firstname" required />
+      <label for="lastname">Last Name:</label>
+      <input type="text" id="lastname" name="lastname" required />
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+      <label for="phone number">phone:</label>
+      <input type="number" id="phone number" name="phone number" required />
+      <br />
+
+      <label>profile Type:</label>
+      <input
+        type="radio"
+        id="Professional"
+        name="profile"
+        value="Professional"
+      />
+      <label for="Professional">Professional</label>
+      <input type="radio" id="Student" name="profile" value="Student" />
+      <label for="Student">Student</label>
+      <input type="radio" id="Enthusiast" name="profile" value="Enthusiast" />
+      <label for="Enthusiast">Enthusiast</label><br />
+      <br />
+      <br />
+      <label>Areas of Interest:</label>
+
+      <select id="courses" name="courses">
+        <option value="s">--select domain of interest--</option>
+        <option value="wd">Web Development</option>
+        <option value="ds">Data Science</option>
+        <option value="cs">Cloud Computing</option>
+        <option value="ai">Artificial Intelligence</option>
+        <option value="cs">Cybersecurity</option>
+      </select>
+      <br />
+      <label for="Workshops">Workshops:</label>
+      <input type="checkbox" id="Workshops" name="Workshops" value=Workshops"
+      required />
+      <label for="Workshops">Intro to Quantum Computing</label>
+      <input
+        type="checkbox"
+        id="Workshops"
+        name="Workshops"
+        value="Workshops"
+        required
+      />
+      <label for="Workshops">Virtual Reality on the Web</label>
+      <input
+        type="checkbox"
+        id="Workshops"
+        name="Workshops"
+        value="Workshops"
+        required
+      />
+      <label for="Workshops">Cybersecurity 101</label>
+      <input
+        type="checkbox"
+        id="Workshops"
+        name="Workshops"
+        value="Workshops"
+        required
+      />
+      <label for="Workshops">AI in Medical Imaging</label><br />
+
+      <label for="Additional Information">Additional Information:</label>
+      <textarea
+        id="Additional Information"
+        name="Additional Information"
+        rows="4"
+        maxlength="300"
+      ></textarea>
+      <br />
+      <label for="days">Preferred Days:</label>
+      <input type="checkbox" id="day1" name="preferredDays[]" value="Day 1" />
+      <label for="day1">Day 1</label>
+
+      <input type="checkbox" id="day2" name="preferredDays[]" value="Day 2" />
+      <label for="day2">Day 2</label>
+
+      <input type="checkbox" id="day3" name="preferredDays[]" value="Day 3" />
+      <label for="day3">Day 3</label>
+      <br />
+      <label for="Meal Preference:">Meal Preference:</label>
+      <input type="radio" id="Vegetarian" name="Meal" value="Vegetarian" />
+      <label for="Vegetarian">Vegetarian</label>
+      <input
+        type="radio"
+        id="Non-Vegetarian"
+        name="Meal"
+        value="Non-Vegetarian"
+      />
+      <label for="Non-Vegetarian">Non-Vegetarian</label>
+      <input type="radio" id="Vegan" name="Meal" value="Vegan" />
+      <label for="Vegan">Vegan</label>
+      <input
+        type="radio"
+        id="No Preference"
+        name="Meal"
+        value="No Preference"
+      />
+      <label for="No Preference">No Preference</label><br />
+      <input type="checkbox" id="terms" name="terms" value="agree" required />
+      <label for="terms">I agree to the terms and conditions</label><br />
+      <input type="submit" value="Register" />
+    </form>
+  </body>
+</html>
